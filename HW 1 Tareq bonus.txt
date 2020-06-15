@@ -1,0 +1,27 @@
+public class HelloWorld{
+
+     public static void main(String []args){
+         
+         double student = 89.3;
+         
+         grade(student);
+         
+     }
+     public static double grade(double student){
+         
+                  if (student >= 90 ){
+             System.out.println("A");
+         }else if (student >= 80){
+             System.out.println("B");
+         }else if (student >= 70){
+             System.out.println("c");
+         }else if (student >= 60){
+             System.out.println("D");
+         }else if (student < 60){
+             System.out.println("F");
+         }
+         
+        return student;
+     }
+}
+    
